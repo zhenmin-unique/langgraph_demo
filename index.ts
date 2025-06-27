@@ -2,6 +2,7 @@ import dagDefault from "./src/dag/default";
 import dagCondition from "./src/dag/condition";
 import nonPersistent from "./src/store/non-persistent";
 import persistent from "./src/store/persistent";
+import humanInterrupt from "./src/interrupt";
 
 // dag 默认构图
 // dagDefault();
@@ -13,4 +14,7 @@ import persistent from "./src/store/persistent";
 // nonPersistent();
 
 // 持久化存储
-persistent();
+// persistent();
+
+// human in loop
+humanInterrupt();
