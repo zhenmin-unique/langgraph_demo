@@ -3,6 +3,7 @@ import dagCondition from "./src/dag/condition";
 import nonPersistent from "./src/store/non-persistent";
 import persistent from "./src/store/persistent";
 import humanInterrupt from "./src/interrupt";
+import replay from "./src/replay";
 
 // dag 默认构图
 // dagDefault();
@@ -17,4 +18,7 @@ import humanInterrupt from "./src/interrupt";
 // persistent();
 
 // human in loop
-humanInterrupt();
+// humanInterrupt();
+
+// 路径重放
+replay();
