@@ -4,6 +4,7 @@ import nonPersistent from "./src/store/non-persistent";
 import persistent from "./src/store/persistent";
 import humanInterrupt from "./src/interrupt";
 import replay from "./src/replay";
+import functionCalling from "./src/tools";
 
 // dag 默认构图
 // dagDefault();
@@ -21,4 +22,7 @@ import replay from "./src/replay";
 // humanInterrupt();
 
 // 路径重放
-replay();
+// replay();
+
+// function calling
+functionCalling();

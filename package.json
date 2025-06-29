@@ -15,6 +15,7 @@
     "@langchain/langgraph": "^0.3.4",
     "@langchain/langgraph-checkpoint-sqlite": "^0.1.5",
     "@langchain/openai": "^0.5.15",
+    "dayjs": "^1.11.13",
     "dotenv": "^16.5.0"
   },
   "devDependencies": {
