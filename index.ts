@@ -5,6 +5,8 @@ import persistent from "./src/store/persistent";
 import humanInterrupt from "./src/interrupt";
 import replay from "./src/replay";
 import functionCalling from "./src/tools";
+import homologySubgraph from "./src/subgraph/homology";
+import nonHomologySubgraph from "./src/subgraph/non-homology";
 
 // dag 默认构图
 // dagDefault();
@@ -25,4 +27,10 @@ import functionCalling from "./src/tools";
 // replay();
 
 // function calling
-functionCalling();
+// functionCalling();
+
+// 同源子图
+// homologySubgraph();
+
+// 非同源子图
+nonHomologySubgraph();
